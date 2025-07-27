@@ -12,3 +12,18 @@
 2025-07-27 03:06:16,803 - INFO - DRY RUN - Files that would be encrypted:
 2025-07-27 03:06:16,803 - INFO -   /tmp/test_target_dir/remote_test.txt
 2025-07-27 03:06:16,803 - INFO -   /tmp/test_target_dir/another_file.txt
+2025-07-27 03:23:59,369 - INFO - Key saved to /workspace/secret.key
+2025-07-27 03:23:59,369 - INFO - Configuration saved to /workspace/encryption_config.json
+2025-07-27 03:23:59,370 - INFO - Found 2 files to encrypt
+2025-07-27 03:23:59,370 - INFO - DRY RUN - Files that would be encrypted:
+2025-07-27 03:23:59,370 - INFO -   /tmp/test_target_dir/remote_test.txt
+2025-07-27 03:23:59,370 - INFO -   /tmp/test_target_dir/another_file.txt
+2025-07-27 03:24:08,764 - INFO - Loaded configuration from /workspace/encryption_config.json
+2025-07-27 03:24:08,764 - INFO - Key saved to /workspace/secret.key
+2025-07-27 03:24:08,765 - INFO - Configuration saved to /workspace/encryption_config.json
+2025-07-27 03:24:08,765 - INFO - Found 1 files in /tmp/dir1
+2025-07-27 03:24:08,765 - INFO - Found 1 files in /tmp/dir2
+2025-07-27 03:24:08,765 - INFO - Found 2 files to encrypt
+2025-07-27 03:24:08,765 - INFO - DRY RUN - Files that would be encrypted:
+2025-07-27 03:24:08,765 - INFO -   /tmp/dir1/test1.txt
+2025-07-27 03:24:08,765 - INFO -   /tmp/dir2/test2.txt
