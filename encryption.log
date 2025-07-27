@@ -7,3 +7,8 @@
 2025-07-27 02:51:49,015 - INFO -   /workspace/setup.py
 2025-07-27 02:51:49,015 - INFO -   /workspace/test_sample.txt
 2025-07-27 02:51:49,015 - INFO -   /workspace/README.md
+2025-07-27 03:06:16,803 - INFO - Key saved to /tmp/test_target_dir/secret.key
+2025-07-27 03:06:16,803 - INFO - Found 2 files to encrypt
+2025-07-27 03:06:16,803 - INFO - DRY RUN - Files that would be encrypted:
+2025-07-27 03:06:16,803 - INFO -   /tmp/test_target_dir/remote_test.txt
+2025-07-27 03:06:16,803 - INFO -   /tmp/test_target_dir/another_file.txt
