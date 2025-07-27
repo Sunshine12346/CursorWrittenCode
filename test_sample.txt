@@ -1,0 +1,17 @@
+This is a sample text file for testing the educational encryption tools.
+
+It contains multiple lines of text to demonstrate that the encryption
+and decryption process works correctly with various file types.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod 
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+commodo consequat.
+
+The encryption tool should preserve all content exactly as it was
+originally written, including:
+- Special characters: !@#$%^&*()
+- Numbers: 1234567890
+- Unicode: éñüñà 中文 العربية 🔒🔓
+
+This file will be used to test the educational encryption/decryption tools.

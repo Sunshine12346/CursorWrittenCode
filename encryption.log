@@ -1,0 +1,9 @@
+2025-07-27 02:51:49,015 - INFO - Key saved to /workspace/secret.key
+2025-07-27 02:51:49,015 - INFO - Found 6 files to encrypt
+2025-07-27 02:51:49,015 - INFO - DRY RUN - Files that would be encrypted:
+2025-07-27 02:51:49,015 - INFO -   /workspace/encrypt.bat
+2025-07-27 02:51:49,015 - INFO -   /workspace/requirements.txt
+2025-07-27 02:51:49,015 - INFO -   /workspace/decrypt.bat
+2025-07-27 02:51:49,015 - INFO -   /workspace/setup.py
+2025-07-27 02:51:49,015 - INFO -   /workspace/test_sample.txt
+2025-07-27 02:51:49,015 - INFO -   /workspace/README.md

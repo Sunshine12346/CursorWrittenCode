@@ -25,42 +25,88 @@ Modern, robust file encryption and decryption tools built with Python and the `c
 
 ## Installation
 
+### Quick Setup (Recommended)
+Run the setup script to automatically check and install dependencies:
+```bash
+python setup.py
+```
+
+### Manual Installation
 1. Install Python 3.7 or higher
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
+### Windows Users
+For Windows users, you can use the provided batch files:
+- `encrypt.bat` - Easy encryption
+- `decrypt.bat` - Easy decryption
+
+These batch files will automatically check for Python and install dependencies if needed.
+
 ## Usage
 
 ### Basic Encryption
+#### Linux/Mac:
 ```bash
 # Encrypt current directory (recursive by default)
-python modern_encrypt.py
+python3 modern_encrypt.py
 
 # Encrypt specific directory
-python modern_encrypt.py --directory /path/to/target
+python3 modern_encrypt.py --directory /path/to/target
 
 # Use password-based encryption
-python modern_encrypt.py --password mypassword
+python3 modern_encrypt.py --password mypassword
 
 # Dry run (see what would be encrypted)
-python modern_encrypt.py --dry-run
+python3 modern_encrypt.py --dry-run
+```
+
+#### Windows:
+```cmd
+REM Easy method using batch file
+encrypt.bat
+
+REM Or use Python directly
+python modern_encrypt.py
+
+REM Encrypt with password
+python modern_encrypt.py --password mypassword
+
+REM Encrypt specific folder
+python modern_encrypt.py --directory "C:\path\to\folder"
 ```
 
 ### Basic Decryption
+#### Linux/Mac:
 ```bash
 # Decrypt current directory
-python modern_decrypt.py
+python3 modern_decrypt.py
 
 # Decrypt specific directory
-python modern_decrypt.py --directory /path/to/target
+python3 modern_decrypt.py --directory /path/to/target
 
 # Use password-based decryption
-python modern_decrypt.py --password mypassword
+python3 modern_decrypt.py --password mypassword
 
 # Dry run (see what would be decrypted)
-python modern_decrypt.py --dry-run
+python3 modern_decrypt.py --dry-run
+```
+
+#### Windows:
+```cmd
+REM Easy method using batch file
+decrypt.bat
+
+REM Or use Python directly
+python modern_decrypt.py
+
+REM Decrypt with password
+python modern_decrypt.py --password mypassword
+
+REM Decrypt specific folder
+python modern_decrypt.py --directory "C:\path\to\folder"
 ```
 
 ### Advanced Options
